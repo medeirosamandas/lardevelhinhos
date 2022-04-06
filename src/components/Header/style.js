@@ -25,11 +25,11 @@ export const NavHeader = styled.nav`
     text-align: center;
     margin-right: 1.5rem;
     cursor: pointer;
+  }
 
-    @media (max-width: 800px) {
-      flex-direction: column;
-      margin-top: 0.8rem;
-    }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    margin-top: 0.8rem;
   }
 `;
 

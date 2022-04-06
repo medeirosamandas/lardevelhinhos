@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { LogoHeader, NavHeader, PageHeader } from "./style";
 
 const Header = () => {
@@ -8,11 +9,21 @@ const Header = () => {
       </LogoHeader>
       <NavHeader>
         <ul>
-          <li>Home</li>
-          <li>Sobre nós</li>
-          <li>Como doar</li>
-          <li>Transparência</li>
-          <li>Contato</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">Sobre nós</Link>
+          </li>
+          <li>
+            <Link to="/comodoar">Como doar</Link>
+          </li>
+          <li>
+            <Link to="/transparencia">Transparência</Link>
+          </li>
+          <li>
+            <Link to="/contato">Contato</Link>
+          </li>
         </ul>
       </NavHeader>
     </PageHeader>

@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import ComoDoar from "./pages/ComoDoar";
+import Routess from "./routes";
 
 function App() {
   return (
     <>
       <Header />
-      <ComoDoar />
+      <Routess />
     </>
   );
 }

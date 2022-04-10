@@ -1,4 +1,6 @@
+import { SectionTransparencia } from "./style";
+
 const Transparencia = () => {
-  return <>TRANSPARÊNCIA</>;
+  return <SectionTransparencia>TRANSPARÊNCIA</SectionTransparencia>;
 };
 export default Transparencia;

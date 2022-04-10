@@ -24,7 +24,13 @@ export const NavHeader = styled.nav`
     list-style-type: none;
     text-align: center;
     margin-right: 1.5rem;
-    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  li :hover {
+    border-bottom: 2px red solid;
   }
 
   @media (max-width: 800px) {
@@ -38,6 +44,28 @@ export const PageHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  .custom-shape-divider-top-1649265306 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -19;
+}
+
+.custom-shape-divider-top-1649265306 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 155px;
+}
+
+.custom-shape-divider-top-1649265306 .shape-fill {
+    fill: var(--cinza);
+}
+  }
 
   @media (max-width: 800px) {
     flex-direction: column;

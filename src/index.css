@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+
+:root {
+  --branco: #f4f4f4;
+  --cinza: #deddd8;
+}
 h1,
 header,
 main,
 h2,
 h3,
 h4,
+h5,
 p,
 body,
 html {

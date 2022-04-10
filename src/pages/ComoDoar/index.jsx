@@ -28,15 +28,18 @@ const ComoDoar = () => {
               Transferência Bancária
               <img src={transferencia} alt="transferencia" />
             </h3>
+            <h5>Favorecido: Lar de Velhinhos Irmã Marieta</h5>
+            <h5>CNPJ: 19.071.083/0001-38</h5>
+
             <h4>SICOOB</h4>
             <p>AG: 3180</p>
-            <p>C/C: XXXXX</p>
+            <p>C/C: 34320-0</p>
 
             <h4>CAIXA ECONÔMICA FEDERAL</h4>
 
             <p>AG: 0101</p>
             <p>OP. 003</p>
-            <p>C/C: XXXXX</p>
+            <p>C/C: 500062-2</p>
           </div>
           <div>
             <h3>
@@ -44,7 +47,7 @@ const ComoDoar = () => {
               <img src={pix} alt="pix" />
             </h3>
 
-            <p>Chave: XXXXXXXX</p>
+            <p>Chave: 19.071.083/0001-38</p>
           </div>
           <div>
             <h3>
@@ -54,9 +57,13 @@ const ComoDoar = () => {
 
             <p>
               Você pode fazer doação por meio do carnê, materiais de limpeza,
-              fraldas, comida, roupa, direto em nossa instituição.
+              fraldas, comidas, roupas, etc. direto em nossa instituição.
             </p>
-            <p>Rua A, 1657, Bairro tal, Cambuquira</p>
+            <br></br>
+            <p>
+              Av. João Thomáz de Liz, 182, Centro, Cambuquira/MG, CEP:
+              37.420-000
+            </p>
           </div>
         </DivTiposDoacoes>
       </FormasDoacoes>

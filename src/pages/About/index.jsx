@@ -1,4 +1,6 @@
+import { SectionAbout } from "./style";
+
 const About = () => {
-  return <>SOBRE NÓS</>;
+  return <SectionAbout>SOBRE NÓS</SectionAbout>;
 };
 export default About;

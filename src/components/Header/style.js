@@ -44,6 +44,7 @@ export const PageHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: var(--rosa);
 
   .custom-shape-divider-top-1649265306 {
     position: absolute;
@@ -63,7 +64,7 @@ export const PageHeader = styled.header`
 }
 
 .custom-shape-divider-top-1649265306 .shape-fill {
-    fill: var(--cinza);
+    fill: var(--rosa);
 }
   }
 

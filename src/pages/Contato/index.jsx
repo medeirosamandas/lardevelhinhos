@@ -9,9 +9,13 @@ const Contato = () => {
         alguma doação ou mesmo uma visita a nós, entre em contato com a gente.
       </p>
       <p>Estamos localizados em</p>
-      <p>Rua X</p>
-      <p>Cambuquira, MG</p>
-      <p>Telefone: (35) 3251-1111</p>
+      <br />
+      <p>Av. João Thomáz de Liz, 182, Centro </p>
+      <p>Cambuquira/MG, CEP: 37.420-000</p>
+
+      <br />
+      <p>Telefone: (35) 3251-1249</p>
+      <p>Whatsapp: (35) 98406-0024</p>
     </SectionContato>
   );
 };

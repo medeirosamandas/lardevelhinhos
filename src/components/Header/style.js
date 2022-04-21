@@ -23,6 +23,7 @@ export const NavHeader = styled.nav`
   li {
     list-style-type: none;
     text-align: center;
+    padding: 0.5rem;
     margin-right: 1.5rem;
   }
   a {
@@ -30,7 +31,10 @@ export const NavHeader = styled.nav`
     color: black;
   }
   li :hover {
-    border-bottom: 2px red solid;
+    background-color: var(--rosaclaro);
+    padding: 0.5rem;
+    border-bottom: 2px var(--rosaclaro) solid;
+    border-radius: 10px;
   }
 
   @media (max-width: 800px) {

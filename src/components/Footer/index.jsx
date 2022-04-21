@@ -3,6 +3,7 @@ import { PageFooter } from "./style";
 const Footer = () => {
   return (
     <PageFooter>
+      <h1>Lar de Velhinhos Irmã Marieta</h1>
       <ul>
         <li>Fale conosco</li>
         <li></li>

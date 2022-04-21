@@ -36,8 +36,8 @@ export const Content = styled.div`
     padding: 0 2rem 2rem;
   }
   a {
-    background-color: var(--rosa);
-    color: white;
+    background-color: var(--rosaclaro);
+    color: black;
     text-decoration: none;
     padding: 1rem;
     border-radius: 10px;
